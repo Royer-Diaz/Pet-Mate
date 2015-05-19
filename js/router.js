@@ -2,7 +2,7 @@ Pet_Mate.Router.map(function() {
  this.resource('about');
  this.resource('contact', function() {
 	this.resource('adresses');
-    this.resource('map');
+    this.resource('send_message');
   });
 
  this.resource('home', {path:'/'});
@@ -36,7 +36,7 @@ this.resource('from_farm', function() {
 
  this.resource('health');
  this.resource('pet_new');
- this.resource('find');
+ 
 
 });
 
