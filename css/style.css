@@ -21,12 +21,6 @@ footer p {
   text-align: center;
 }
 
-#map-canvas {
-        width: 500px;
-        height: 400px;
-        background-color: #CCC;
-      }
-
 
  /*--------Pet Health------------*/    
 .col3 {
