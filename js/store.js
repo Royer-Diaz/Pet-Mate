@@ -55,17 +55,7 @@ His father was a miniature schnauzer and mum a mixed breed terrier, with some no
   	gender: 'Dog (male)',
   	pedigree: 'Yes', 
   	description: 'Diggs is a 10 month old pure bred Basset Hound.  We are looking for a female Basset Hound for him to breed with.  Please contact me with serious inquiries.',
-  },
-  {
-  	title: '',
-  	photo: 'http://www.breedyourdog.com',
-  	location: '',
-  	breed: '', 
-  	age: '1 year, 11 months', 
-  	gender: '',
-  	pedigree: '', 
-  	description: '',
-  },
+  }
 
 
 ];
