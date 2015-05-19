@@ -8,13 +8,14 @@
 
 	<link rel="stylesheet" type="text/css" href="css/libs/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="css/libs/bootstrap-theme.css">
-	<!-- <link rel="stylesheet" type="text/css" href="css/libs/style.css"> -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 
-
+   
+    
 	<script type="text/javascript" src="js/libs/ember-handlebars-loader-0.0.2.js"></script>
 	<script type="text/javascript" src="js/libs/ember.js"></script>
 	<script type="text/javascript" src="js/libs/ember-template-compiler.js"></script>
-    <!-- <script type="text/javascript" src="js/libs/form.js"></script> -->
+    <script type="text/javascript" src="js/form.js"></script>
 	<script type="text/javascript" src="js/pet_mate.js"></script>
 	<script type="text/javascript" src="js/router.js"></script>
 </head>
@@ -23,7 +24,11 @@
 
 
   <script> 
-     EmberHandlebarsLoader.loadTemplates(['find', 'about', 'home', 'contact']);
+     EmberHandlebarsLoader.loadTemplates([
+
+     	'home', 'find', 'about', 'for_sale', 'buy_birds', 'buy_dogs', 'buy_cats', 'buy_reptiles', 'buy_exotic', 'for_breed', 'stud_birds', 'stud_dogs', 'stud_cats', 'stud_reptiles', 'stud_exotic', 'contact', 'adresses', 'map', 'health', 'pet_new'
+
+     	]);
   </script>
   
 </body>

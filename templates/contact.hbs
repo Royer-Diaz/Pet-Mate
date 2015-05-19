@@ -1,13 +1,19 @@
-<div class="container">
-	<nav class="nav bar navbar-default" role="navigation">
-		<ul class="nav navbar-nav">
-			<li>{{#link-to 'home'}}Home{{/link-to}}</li>
-			<li>{{#link-to 'about'}}About{{/link-to}}</li>
-			<li>{{#link-to 'find'}}Pet Finder{{/link-to}}</li>
-			<li>{{#link-to 'contact'}}Contact{{/link-to}}</li>
-		</ul>
-	</nav>
+<div class="row">
+    <div class="col-md-6">
+		<h1>Contact</h1>
 
-<h1>Contact</h1>
+
+		<p>Want to get in touch?</p>
+
+		<ul>
+			<li>{{#link-to 'adresses'}} Adresses &amp; Email! {{/link-to}}</li>
+			<li>{{#link-to 'map'}} Where we are? {{/link-to}}</li>
+		</ul>
+    </div>
+    <div class="col-md-6">
+    	
+       {{outlet}}
+       
+    </div>
 
 </div>
