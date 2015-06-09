@@ -119,6 +119,14 @@ footer p {
   width: 140px;
   height: 140px;
 }
+.mainbg_stl {
+  background: #BA85CB url("../img/pattern.png") repeat scroll 0% 0%;
+}
+
+.internalbg {
+  background-color: white;
+}
+
 /* Featurettes
 ------------------------- */
 
