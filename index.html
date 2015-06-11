@@ -1,38 +1,42 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="UTF-8">
-	<title> Pet Mate | </title>
-	<script type="text/javascript" src="js/libs/jquery-1.11.2.min.js"></script>
-	<script type="text/javascript" src="js/libs/bootstrap.js"></script>
+	<head>
+	    <meta charset="UTF-8">
+		<title> Pet Mate | </title>
+		<script type="text/javascript" src="js/libs/jquery-1.11.2.min.js"></script>
+		<script type="text/javascript" src="js/libs/bootstrap.js"></script>
 
-	<link rel="stylesheet" type="text/css" href="css/libs/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="css/libs/bootstrap-theme.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/libs/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="css/libs/bootstrap-theme.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	    
+		<script type="text/javascript" src="js/libs/ember-handlebars-loader-0.0.2.js"></script>
+		<script type="text/javascript" src="js/libs/ember.js"></script>
+		<script type="text/javascript" src="js/libs/ember-template-compiler.js"></script>
+	    <script type="text/javascript" src="js/animals.js"></script>
+	    <script type="text/javascript" src="js/form.js"></script>
+		<script type="text/javascript" src="js/pet_mate.js"></script>
+		<script type="text/javascript" src="js/router.js"></script>
+		<script type="text/javascript" src="controllers/send_message.js"></script>
 
-   
-    
-	<script type="text/javascript" src="js/libs/ember-handlebars-loader-0.0.2.js"></script>
-	<script type="text/javascript" src="js/libs/ember.js"></script>
-	<script type="text/javascript" src="js/libs/ember-template-compiler.js"></script>
-    <script type="text/javascript" src="js/store.js"></script>
-    <script type="text/javascript" src="js/form.js"></script>
-	<script type="text/javascript" src="js/pet_mate.js"></script>
-	<script type="text/javascript" src="js/router.js"></script>
-	<script type="text/javascript" src="controllers/send_message.js"></script>
-	<script type="text/javascript" src="routes/buy_reptiles.js"></script>
 
-</head>
-</head>
-<body class="container-fluid mainbg_stl">
+		<script type="text/javascript" src="routes/dog.js"></script>
+		<script type="text/javascript" src="routes/buy_reptiles.js"></script>
+		<script type="text/javascript" src="routes/buy_dogs.js"></script>
+		<script type="text/javascript" src="routes/buy_cats.js"></script>
+		<script type="text/javascript" src="routes/buy_birds.js"></script>
+		<script type="text/javascript" src="routes/buy_exotic.js"></script>
 
-  <script> 
-     EmberHandlebarsLoader.loadTemplates([
+	</head>
+	<body class="container-fluid mainbg_stl">
 
-     	'about', 'adresses', 'application', 'buy_birds', 'buy_cats', 'buy_dogs', 'buy_exotic', 'buy_reptiles', 'contact', 'farm_birds', 'farm_cows', 'farm_exotic', 'farm_horses', 'farm_pigs', 'find', 'for_breed', 'for_sale', 'from_farm', 'health', 'home', 'send_message', 'pet_new', 'stud_birds', 'stud_cats', 'stud_dogs', 'stud_exotic', 'stud_reptiles'
+	  <script> 
+	     EmberHandlebarsLoader.loadTemplates([
 
-     	]);
-  </script>
-  
-</body>
+	     	'about', 'adresses', 'application', 'buy_birds', 'buy_cats', 'buy_dogs', 'buy_exotic', 'buy_reptiles', 'contact', 'farm_birds', 'farm_cows', 'farm_exotic', 'farm_horses', 'farm_pigs', 'find', 'for_breed', 'for_sale', 'from_farm', 'health', 'home', 'send_message', 'pet_new', 'stud_birds', 'stud_cats', 'stud_dogs', 'stud_exotic', 'stud_reptiles','dog'
+
+	     	]);
+	  </script>
+	  
+	</body>
 </html>
