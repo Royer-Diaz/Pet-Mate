@@ -1,8 +1,6 @@
-Pet_Mate.ApplicationController = Ember.Controller.extend({
-	var: false, 
-	 actions: {
-	 	sendMessage: function() {
-	 		//Do something
-	 	}
-	 }
+Pet_Mate.ApplicationRoute = Ember.Route.extend({
+	controllerName: 'application',
+	renderTemplate: function(){
+		this.render('application');
+	}
 });

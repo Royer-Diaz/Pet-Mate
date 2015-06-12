@@ -1,8 +1,9 @@
-Pet_Mate.Farm_birdsController = Ember.Controller.extend({
-	var: false, 
-	 actions: {
-	 	sendMessage: function() {
-	 		//Do something
-	 	}
-	 }
+Pet_Mate.Farm_birdsRoute = Ember.Route.extend({
+	controllerName: 'farm_birds',
+	renderTemplate: function(){
+		this.render('farm_birds');
+	},
+	model: function() {
+		return Birds;
+	}
 });

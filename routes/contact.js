@@ -1,8 +1,6 @@
-Pet_Mate.ContactController = Ember.Controller.extend({
-	var: false, 
-	 actions: {
-	 	sendMessage: function() {
-	 		//Do something
-	 	}
-	 }
+Pet_Mate.ContactRoute = Ember.Route.extend({
+	controllerName: 'contact',
+	renderTemplate: function(){
+		this.render('contact');
+	}
 });

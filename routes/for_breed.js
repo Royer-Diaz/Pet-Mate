@@ -1,8 +1,6 @@
-Pet_Mate.For_breedController = Ember.Controller.extend({
-	var: false, 
-	 actions: {
-	 	sendMessage: function() {
-	 		//Do something
-	 	}
-	 }
+Pet_Mate.For_breedRoute = Ember.Route.extend({
+	controllerName: 'for_breed',
+	renderTemplate: function(){
+		this.render('for_breed');
+	}
 });

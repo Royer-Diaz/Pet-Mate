@@ -1,8 +1,9 @@
-Pet_Mate.Pet_newsController = Ember.Controller.extend({
-	var: false, 
-	 actions: {
-	 	sendMessage: function() {
-	 		//Do something
-	 	}
-	 }
+Pet_Mate.Pet_newsRoute = Ember.Route.extend({
+	controllerName: 'pet_news',
+	renderTemplate: function(){
+		this.render('pet_news');
+	},
+	model: function() {
+		return News;
+	}
 });

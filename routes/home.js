@@ -1,8 +1,6 @@
-Pet_Mate.HomeController = Ember.Controller.extend({
-	var: false, 
-	 actions: {
-	 	sendMessage: function() {
-	 		//Do something
-	 	}
-	 }
+Pet_Mate.HomeRoute = Ember.Route.extend({
+	controllerName: 'home',
+	renderTemplate: function(){
+		this.render('home');
+	}
 });

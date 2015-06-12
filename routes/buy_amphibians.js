@@ -1,4 +1,4 @@
-Pet_Mate.Buy_AmphibiansRoute = Ember.Route.extend({
+Pet_Mate.Buy_amphibiansRoute = Ember.Route.extend({
 	controllerName: 'buy_amphibians',
 	renderTemplate: function(){
 		this.render('buy_Aamphibians');

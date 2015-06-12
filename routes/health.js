@@ -1,8 +1,6 @@
-Pet_Mate.HealthController = Ember.Controller.extend({
-	var: false, 
-	 actions: {
-	 	sendMessage: function() {
-	 		//Do something
-	 	}
-	 }
+Pet_Mate.HealthRoute = Ember.Route.extend({
+	controllerName: 'health',
+	renderTemplate: function(){
+		this.render('health');
+	}
 });

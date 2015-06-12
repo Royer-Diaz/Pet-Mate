@@ -1,8 +1,9 @@
-Pet_Mate.Stud_catsController = Ember.Controller.extend({
-	var: false, 
-	 actions: {
-	 	sendMessage: function() {
-	 		//Do something
-	 	}
-	 }
+Pet_Mate.Stud_catRoute = Ember.Route.extend({
+	controllerName: 'stud_cat',
+	renderTemplate: function(){
+		this.render('stud_cat');
+	},
+	model: function() {
+		return catsBreed;
+	}
 });

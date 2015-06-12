@@ -1,8 +1,6 @@
-Pet_Mate.FindController = Ember.Controller.extend({
-	var: false, 
-	 actions: {
-	 	sendMessage: function() {
-	 		//Do something
-	 	}
-	 }
+Pet_Mate.FindRoute = Ember.Route.extend({
+	controllerName: 'find',
+	renderTemplate: function(){
+		this.render('find');
+	}
 });

@@ -1,8 +1,6 @@
-Pet_Mate.For_saleController = Ember.Controller.extend({
-	var: false, 
-	 actions: {
-	 	sendMessage: function() {
-	 		//Do something
-	 	}
-	 }
+Pet_Mate.For_saleRoute = Ember.Route.extend({
+	controllerName: 'for_sale',
+	renderTemplate: function(){
+		this.render('for_sale');
+	}
 });

@@ -1,8 +1,6 @@
-Pet_Mate.Send_messageController = Ember.Controller.extend({
-	var: false, 
-	 actions: {
-	 	sendMessage: function() {
-	 		//Do something
-	 	}
-	 }
+Pet_Mate.Send_messageRoute = Ember.Route.extend({
+	controllerName: 'send_message',
+	renderTemplate: function(){
+		this.render('send_message');
+	}
 });
