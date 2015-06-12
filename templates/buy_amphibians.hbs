@@ -40,11 +40,11 @@
       <div class="container">
           <div class="row">
 
-             {{#each Dogs}}
+             {{#each Amphibians}}
               <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
                 <div class="card">
                     <div class="thumbnail">           
-                         <img alt="Rubik thumbnail" height="270" src="http://s3.amazonaws.com/creativetim_bucket/products/28/thumb/rubik_thumbnail.jpg?1431435602" width="360">
+                         <img alt="Thumb" src={{image}} width="360px" height="270px" >
                          <a href="/product/rubik-presentation-page">
                            <div class="thumb-cover">
                            </div>
@@ -52,7 +52,7 @@
                          <div class="details">
                             <div class="user hidden">
                                  <div class="user-photo">
-                                      <img alt="Thumb" src="http://s3.amazonaws.com/creativetim_bucket/photos/2/thumb.png?1431433181">
+                                      <img alt="Thumb" src=" + {{image}} + ">
                                  </div>
                                  <div class="name">Tim </div>
                             </div> 
@@ -61,11 +61,12 @@
                     </div>
                     <div class="card-info">
                       <div class="moving">
-                              <h4>Name: <span class="text-muted">{{petName}}</span></h4>
-                              <p><strong>Gender:</strong><span class="text-muted">{{breed}}</span></p>
-                              <p><strong>Size:</strong><span class="text-muted">{{age}}</span></p>
+                              <h4>Name: <span class="text-muted">{{name}}</span></h4>
+                              <p><strong>Gender:</strong><span class="text-muted">{{gender}}</span></p>
+                              <p><strong>Breed:</strong><span class="text-muted">{{breed}}</span></p>
+                              <p><strong>Size:</strong><span class="text-muted">{{size}}</span></p>
                               <p><strong>Age:</strong><span class="text-muted">{{age}}</span></p>
-                              <p class="btn btn-default">{{#link-to 'dog' this._id}}View details »{{/link-to}}</p>
+                              <p class="btn btn-default">{{#link-to 'amphibian' this._id}}View details »{{/link-to}}</p>
                       </div>
                     </div>
                 </div>

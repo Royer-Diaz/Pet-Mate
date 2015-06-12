@@ -1,5 +1,5 @@
 Pet_Mate.Buy_amphibiansController = Ember.Controller.extend({
-	var: false, 
+	imge: false, 
 	 actions: {
 	 	sendMessage: function() {
 	 		//Do something
