@@ -1,4 +1,4 @@
-Pet_Mate.Stud_dogsController = Ember.Controller.extend({
+Pet_Mate.FindController = Ember.Controller.extend({
 	var: false, 
 	 actions: {
 	 	sendMessage: function() {
