@@ -47,7 +47,8 @@ this.resource('from_farm', function() {
 });
 
  this.resource('health');
- this.resource('pet_new');
+ this.resource('pet_news');
+ this.resource('info_pet');
  this.resource('pet_mate_store');
  
 

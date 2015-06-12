@@ -1,59 +1,79 @@
-<h1>Se Venden:</h1>
 
-<h2>Perros:</h2>
-<!-- Three columns of text below the carousel -->
-<div class="row reptile_stl">
-  <div class="col-md-4 text-center">
-    <img class="img-circle mainClasses" src="http://i.telegraph.co.uk/multimedia/archive/01934/boa_1934033c.jpg">
-    <h2>Serpientes</h2>
-    <p>Consejos utiles de la mano de los expertos en serpientes sobre como brindar un mejor cuidado a nuestro queridas amigas y tambien como brindarles una dieta balanceada.</p>
-    <p><a class="btn btn-default" href="#">View details »</a></p>
-  </div>
-  <div class="col-md-4 text-center">
-    <img class="img-circle mainClasses" src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQk0thrt5x7mt2cAI2no4eVF229ZKsOGodUDb-jz12aer4almm9">
-    <h2>Lagartijas</h2>
-    <p>Vea los errores mas comnes que comete la jente a la hora de criar sus Iguanas, Lagartos y demas Lagartijas, como proveer de los cuidados nesesarios para que vivan una vida plena.</p>
-    <p><a class="btn btn-default" href="#">View details »</a></p>
-  </div>
-  <div class="col-md-4 text-center">
-    <img class="img-circle mainClasses" src="http://www.mercafauna.com/fotos/anuncio9.jpg">
-    <h2>Tortugas</h2>
-    <p>Improved support for mixins make the new Bootstrap 3 easier to customize.</p>
-    <p><a class="btn btn-default" href="#">View details »</a></p>
-  </div>
-</div><!-- /.row -->
-<div class="container-fluid">
-  
-<!-- START THE FEATURETTES -->
+<div class="container fixFrame">   
+  <style type="text/css">
+  .fixFrame{margin-left: -45px!important;}
+  .main {background-color: #e5e5e5;position: relative;}
+  .main .page-title {background-color: #FFFFFF;padding: 20px;margin-bottom: 40px;}
+  .col-lg-4 {text-align: left!important;}
+  .reptile_stl {margin-left: 30px !important;}
+  </style>
 
-  <hr class="featurette-divider">
-
-  {{#each Dogs}}
-
-  <div class="featurette">
-    <div class="row">
-      <div class="col-sm-6">
-        <img class="featurette-image img-thumbnail pull-left" src="http://placehold.it/512">
-      </div>
-      <div class="col-md-6 rx">
-        <h3 class="featurette-heading">Breed: <span class="text-muted">{{breed}}</span></h3>
-        <p><strong>Name:</strong> <span class="text-muted">{{petName}}</span></p>
-        <p><strong>Color:</strong> <span class="text-muted">{{hairColor}}</span></p>
-        <p><strong>Age:</strong> <span class="text-muted">{{age}}</span></p>
-        <p><strong>ID:</strong> <span class="text-muted">{{_id}}</span></p>
-        <p><strong>Member Since:</strong> <span class="text-muted">{{registered}}</span></p>
-        <p class="lead">{{aboutPet}}</p>
-        <p class="btn btn-default">{{#link-to 'dog' this._id}}View details »{{/link-to}}</p>
-      </div>
+  <!-- Three columns of text below the carousel -->
+  <div class="row reptile_stl">
+    <div class="col-md-4 text-center">
+      <img class="img-circle mainClasses" src="http://i.telegraph.co.uk/multimedia/archive/01934/boa_1934033c.jpg">
+      <h2>Serpientes</h2>
+      <p>Consejos utiles de la mano de los expertos en serpientes sobre como brindar un mejor cuidado a nuestro queridas amigas y tambien como brindarles una dieta balanceada.</p>
+      <p><a class="btn btn-default" href="#">View details »</a></p>
     </div>
-  </div>
+    <div class="col-md-4 text-center">
+      <img class="img-circle mainClasses" src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQk0thrt5x7mt2cAI2no4eVF229ZKsOGodUDb-jz12aer4almm9">
+      <h2>Lagartijas</h2>
+      <p>Vea los errores mas comnes que comete la jente a la hora de criar sus Iguanas, Lagartos y demas Lagartijas, como proveer de los cuidados nesesarios para que vivan una vida plena.</p>
+      <p><a class="btn btn-default" href="#">View details »</a></p>
+    </div>
+    <div class="col-md-4 text-center">
+      <img class="img-circle mainClasses" src="http://www.mercafauna.com/fotos/anuncio9.jpg">
+      <h2>Tortugas</h2>
+      <p>Improved support for mixins make the new Bootstrap 3 easier to customize.</p>
+      <p><a class="btn btn-default" href="#">View details »</a></p>
+    </div>
+  </div><!-- /.row -->
 
-  <hr class="featurette-divider">
+  <!--  Thumbnails from Animals  -->
+  <div class="container main">
+      <div class="page-title">
+          <div class="container">
+             <h1 class="title">Find your Next Best Friend!!</h1>
+          </div>
+      </div>  
+      <div class="container">
+          <div class="row">
 
-  {{/each}}
+             {{#each Dogs}}
+              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                <div class="card">
+                    <div class="thumbnail">           
+                         <img alt="Rubik thumbnail" height="270" src="http://s3.amazonaws.com/creativetim_bucket/products/28/thumb/rubik_thumbnail.jpg?1431435602" width="360">
+                         <a href="/product/rubik-presentation-page">
+                           <div class="thumb-cover">
+                           </div>
+                         </a>
+                         <div class="details">
+                            <div class="user hidden">
+                                 <div class="user-photo">
+                                      <img alt="Thumb" src="http://s3.amazonaws.com/creativetim_bucket/photos/2/thumb.png?1431433181">
+                                 </div>
+                                 <div class="name">Tim </div>
+                            </div> 
+                            <div class="clearfix"></div>
+                        </div>            
+                    </div>
+                    <div class="card-info">
+                      <div class="moving">
+                              <h4>Name: <span class="text-muted">{{petName}}</span></h4>
+                              <p><strong>Gender:</strong><span class="text-muted">{{breed}}</span></p>
+                              <p><strong>Size:</strong><span class="text-muted">{{age}}</span></p>
+                              <p><strong>Age:</strong><span class="text-muted">{{age}}</span></p>
+                              <p class="btn btn-default">{{#link-to 'dog' this._id}}View details »{{/link-to}}</p>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            {{/each}}
 
-  <!-- /END THE FEATURETTES -->
-  
-</div>
-<!-- http://www.templatemonster.com/demo/52322.html -->
-  
+          </div>
+      </div>
+  </div>      
+  <!--  /Thumbnails from Animals  -->
+</div><!-- /.container -->
