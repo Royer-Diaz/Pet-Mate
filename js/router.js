@@ -11,6 +11,7 @@ Pet_Mate.Router.map(function() {
 
  this.resource('for_sale', function() {
 	this.resource('buy_birds');
+	this.resource('dog', {path:'buy_dogs/:dog_id'});
 	this.resource('buy_dogs');
 	this.resource('buy_cats');
 	this.resource('buy_reptiles');
